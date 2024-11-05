@@ -49,7 +49,7 @@ const Hero = () => {
           viewport={viewportConfig}
           className={styles.text}
         >
-          Aquí podrás ver los distintos proyectos que he realizado junto con
+          Aquí se encuentran los distintos proyectos que he realizado junto con
           información personal.
         </motion.p>
 

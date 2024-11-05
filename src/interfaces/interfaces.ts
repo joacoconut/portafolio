@@ -1,4 +1,3 @@
-
 export interface DescriptionProjectsProps {
   id: string;
   desc: string;
@@ -12,10 +11,9 @@ export interface IDescriptionHome {
   desc: string;
   url: string;
   title: string;
-  github:string;
+  github: string;
   tags: validateTypes[];
 }
-
 
 export type validateTypes =
   | "HTML"
@@ -30,4 +28,7 @@ export type validateTypes =
   | "TailwindCSS"
   | "Redux"
   | "NextJS"
-  | 'Jotai'
+  | "Jotai"
+  | "Angular"
+  | "Firebase"
+  | "Bootstrap";
