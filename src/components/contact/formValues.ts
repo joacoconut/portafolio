@@ -33,6 +33,7 @@ export const handleSubmit = async (
   });
 
   if (res.status === 200) {
+    console.log("formulario resetado");
     resetForm();
     setStatus("Enviado correctamente");
   }

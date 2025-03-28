@@ -29,13 +29,13 @@ export const descriptionsProjects: DescriptionProjectsProps[] = [
     url: "https://gym-project-joacoconut.vercel.app/",
     tags: ["HTML", "React", "API"],
   },
-  {
+  /* {
     id: "control-clientes",
     title: "Control de Clientes",
     desc: "Página de control de clientes con múltiples funcionalidades usando Angular y una base de datos creada en Firebase",
     url: "https://control-clientes-joacoconut.vercel.app",
     tags: ["HTML", "Angular", "Bootstrap", "Firebase"],
-  },
+  }, */
 ];
 
 // Projectos que se muestran en la página principal
@@ -64,12 +64,12 @@ export const descriptionsHome: IDescriptionHome[] = [
     github: "https://github.com/joacoconut/gym-project",
     tags: ["HTML", "React", "API"],
   },
-  {
+  /* {
     id: "control-clientes",
     title: "Control de Clientes",
     desc: "Página de control de clientes con múltiples funcionalidades usando Angular y una base de datos creada en Firebase",
     url: "https://control-clientes-joacoconut.vercel.app",
     github: "https://github.com/joacoconut/control-clientes",
     tags: ["HTML", "Angular", "Bootstrap", "Firebase"],
-  },
+  }, */
 ];
