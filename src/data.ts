@@ -29,6 +29,13 @@ export const descriptionsProjects: DescriptionProjectsProps[] = [
     url: "https://gym-project-joacoconut.vercel.app/",
     tags: ["HTML", "React", "API"],
   },
+  {
+    id: "cars",
+    title: "Vega Cars",
+    desc: "Página de alquiler de autos con sistema de reserva, filtrado, pasarela de pago y dashboard administrativo.",
+    url: "https://vega-cars.vercel.app/",
+    tags: ["HTML", "React", "NextJS", "TypeScript", "TailwindCSS"],
+  },
   /* {
     id: "control-clientes",
     title: "Control de Clientes",
@@ -63,6 +70,14 @@ export const descriptionsHome: IDescriptionHome[] = [
     url: "https://gym-project-joacoconut.vercel.app/",
     github: "https://github.com/joacoconut/gym-project",
     tags: ["HTML", "React", "API"],
+  },
+  {
+    id: "cars",
+    title: "Vega Cars",
+    desc: "Página de alquiler de autos con sistema de reserva, filtrado, pasarela de pago y dashboard administrativo.",
+    url: "https://vega-cars.vercel.app/",
+    github: "https://github.com/joacoconut/vega-cars",
+    tags: ["HTML", "React", "NextJS", "TypeScript", "TailwindCSS"],
   },
   /* {
     id: "control-clientes",
