@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
 
         <div className={styles.dataContainer}>
-          <p className={styles.title}>Más de mí</p>
+          <p className={styles.title}>More about me</p>
 
           <nav>
             <a

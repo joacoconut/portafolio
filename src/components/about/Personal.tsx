@@ -31,7 +31,7 @@ const Personal = () => {
             transition={transitionConfig}
             viewport={viewportConfig}
           >
-            Nombre:
+            Name:
           </motion.h3>
 
           <motion.p
@@ -53,7 +53,7 @@ const Personal = () => {
             transition={transitionConfig}
             viewport={viewportConfig}
           >
-            Edad:
+            Current Age:
           </motion.h3>
 
           <motion.p
@@ -75,7 +75,7 @@ const Personal = () => {
             transition={transitionConfig}
             viewport={viewportConfig}
           >
-            País:
+            Country:
           </motion.h3>
 
           <motion.p
@@ -98,7 +98,7 @@ const Personal = () => {
           transition={transitionConfig}
           viewport={viewportConfig}
         >
-          Teconologías por aprender:
+          Technologies I want to learn next:
         </motion.h3>
 
         <motion.p

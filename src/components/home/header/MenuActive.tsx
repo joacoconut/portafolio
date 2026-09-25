@@ -1,61 +1,60 @@
-import { motion } from 'framer-motion';
-import { NavLink } from 'react-router-dom';
+import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
 
-import styles from '../../../styles/home/menuactive.module.css'
-
+import styles from "../../../styles/home/menuactive.module.css";
 
 interface Props {
-    visible: boolean;
+  visible: boolean;
 }
 
 const variants = {
-    show: {
-        height: "91%"
-    },
-    hide: {
-        height: "0%"
-    }
-}
+  show: {
+    height: "91%",
+  },
+  hide: {
+    height: "0%",
+  },
+};
 
 const MenuActive = ({ visible }: Props) => {
-    return (
-
-        <motion.div
-            initial={{ height: "0%" }}
-            whileInView={visible ? "show" : "hide"}
-            transition={{ duration: 0.45 }}
-            variants={variants}
-            className={styles.container}
+  return (
+    <motion.div
+      initial={{ height: "0%" }}
+      whileInView={visible ? "show" : "hide"}
+      transition={{ duration: 0.45 }}
+      variants={variants}
+      className={styles.container}
+    >
+      <nav className={styles.navigation}>
+        <NavLink
+          className={({ isActive }) =>
+            `${styles.link} ${isActive ? styles.active : ""}`
+          }
+          to="/"
         >
+          Home
+        </NavLink>
 
-            <nav className={styles.navigation}>
+        <NavLink
+          className={({ isActive }) =>
+            `${styles.link} ${isActive ? styles.active : ""}`
+          }
+          to="/about"
+        >
+          About me
+        </NavLink>
 
-                <NavLink
-                    className={({ isActive }) => `${styles.link} ${isActive ? styles.active : ''}`}
-                    to="/"
-                >
-                    Inicio
-                </NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            `${styles.link} ${isActive ? styles.active : ""}`
+          }
+          to="/projects"
+        >
+          Projects
+        </NavLink>
+      </nav>
+    </motion.div>
+  );
+};
 
-                <NavLink
-                    className={({ isActive }) => `${styles.link} ${isActive ? styles.active : ''}`}
-                    to="/about"
-                >
-                    Sobre mi
-                </NavLink>
-
-                <NavLink
-                    className={({ isActive }) => `${styles.link} ${isActive ? styles.active : ''}`}
-                    to="/projects"
-                >
-                    Proyectos
-                </NavLink>
-
-            </nav>
-
-        </motion.div>
-
-    )
-}
-
-export default MenuActive
+export default MenuActive;

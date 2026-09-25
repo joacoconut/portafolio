@@ -23,7 +23,7 @@ const About = () => {
         viewport={viewportConfig}
         className={styles.title}
       >
-        Algunas palabras sobre mi
+        To know me better
       </motion.span>
 
       <motion.h2
@@ -33,9 +33,15 @@ const About = () => {
         viewport={viewportConfig}
         className={styles.subtitle}
       >
-        Soy Joaquín Vega, Desarrollador Frontend. <br /> Estoy en busca de mis
-        primeras experiencias laborales como desarrollador. Busco crear
-        proyectos de calidad que muestren mis conocimientos y pasiones.
+        I'm Joaquín Vega, a Frontend Developer. <br />
+        <br />
+        I'm passionate about building modern, functional, and engaging user
+        interfaces. I'm currently looking for my first professional opportunity
+        to grow as a developer, contribute my skills, and take on new
+        challenges. <br /> <br /> I focus on building high-quality projects,
+        paying attention to detail, and turning ideas into clear, intuitive, and
+        accessible web experiences. I enjoy learning new technologies and
+        continuously improving my skills as a developer.
       </motion.h2>
 
       <Personal />

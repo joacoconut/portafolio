@@ -76,14 +76,14 @@ const Project = ({
             <div className={styles.links}>
               <a href={url} target="_blank" rel="noreferrer">
                 <i className="fa-solid fa-link"></i>
-                Ver proyecto
+                See project
               </a>
             </div>
 
             <div className={styles.links}>
               <a href={github} target="_blank" rel="noreferrer">
                 <i className="fa-brands fa-github"></i>
-                Ver repositorio
+                See repository
               </a>
             </div>
           </div>

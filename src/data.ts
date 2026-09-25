@@ -11,7 +11,7 @@ export const descriptionsProjects: DescriptionProjectsProps[] = [
   {
     id: "audiophile",
     title: "Audiophile Ecommerce",
-    desc: "Tienda de productos de audio. Reto de Frontend Mentor.",
+    desc: "Premium audio e-commerce platform built as an advanced Frontend Mentor challenge.",
     url: "https://audiophile-ecommerce-joacoconut.vercel.app",
     tags: ["HTML", "React", "SASS", "TypeScript"],
   },
@@ -25,14 +25,14 @@ export const descriptionsProjects: DescriptionProjectsProps[] = [
   {
     id: "gym",
     title: "Gym Project",
-    desc: "Página de ejercicios con videos e información consumiendo una API.",
+    desc: "Exercise website that displays videos and information by consuming an API.",
     url: "https://gym-project-joacoconut.vercel.app/",
     tags: ["HTML", "React", "API"],
   },
   {
     id: "cars",
     title: "Vega Cars",
-    desc: "Página de alquiler de autos con sistema de reserva, filtrado, pasarela de pago y dashboard administrativo.",
+    desc: "Luxury car rental platform combining elegant design with advanced functionalities to deliver a seamless and modern user experience.",
     url: "https://vega-cars.vercel.app/",
     tags: ["HTML", "React", "NextJS", "TypeScript", "TailwindCSS"],
   },
@@ -50,7 +50,7 @@ export const descriptionsHome: IDescriptionHome[] = [
   {
     id: "audiophile",
     title: "Audiophile Ecommerce",
-    desc: "Tienda de productos de audio. Reto de Frontend Mentor.",
+    desc: "Premium audio e-commerce platform built as an advanced Frontend Mentor challenge.",
     url: "https://audiophile-ecommerce-joacoconut.vercel.app",
     github: "https://github.com/joacoconut/Audiophile-Ecommerce",
     tags: ["HTML", "React", "SASS", "TypeScript"],
@@ -66,7 +66,7 @@ export const descriptionsHome: IDescriptionHome[] = [
   {
     id: "gym",
     title: "Gym Project",
-    desc: "Página de ejercicios con videos e información consumiendo una API.",
+    desc: "Exercise website that displays videos and information by consuming an API.",
     url: "https://gym-project-joacoconut.vercel.app/",
     github: "https://github.com/joacoconut/gym-project",
     tags: ["HTML", "React", "API"],
@@ -74,7 +74,7 @@ export const descriptionsHome: IDescriptionHome[] = [
   {
     id: "cars",
     title: "Vega Cars",
-    desc: "Página de alquiler de autos con sistema de reserva, filtrado, pasarela de pago y dashboard administrativo.",
+    desc: "Luxury car rental platform combining elegant design with advanced functionalities to deliver a seamless and modern user experience.",
     url: "https://vega-cars.vercel.app/",
     github: "https://github.com/joacoconut/vega-cars",
     tags: ["HTML", "React", "NextJS", "TypeScript", "TailwindCSS"],
