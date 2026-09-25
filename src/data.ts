@@ -15,13 +15,13 @@ export const descriptionsProjects: DescriptionProjectsProps[] = [
     url: "https://audiophile-ecommerce-joacoconut.vercel.app",
     tags: ["HTML", "React", "SASS", "TypeScript"],
   },
-  {
+  /* {
     id: "infohome",
     title: "Info Home",
     desc: "Página de compra y renta de casas con consumo de API y filtrado.",
     url: "https://info-home-joacoconut.vercel.app/",
     tags: ["HTML", "React", "NextJS", "API"],
-  },
+  }, */
   {
     id: "gym",
     title: "Gym Project",
@@ -55,14 +55,14 @@ export const descriptionsHome: IDescriptionHome[] = [
     github: "https://github.com/joacoconut/Audiophile-Ecommerce",
     tags: ["HTML", "React", "SASS", "TypeScript"],
   },
-  {
+ /*  {
     id: "infohome",
     title: "Info Home",
     desc: "Página de compra y renta de casas con consumo de API y filtrado.",
     url: "https://info-home-joacoconut.vercel.app/",
     github: "https://github.com/joacoconut/InfoHome",
     tags: ["HTML", "React", "NextJS", "API"],
-  },
+  }, */
   {
     id: "gym",
     title: "Gym Project",

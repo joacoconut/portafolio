@@ -49,8 +49,8 @@ const Hero = () => {
           viewport={viewportConfig}
           className={styles.text}
         >
-          Aquí se encuentran los distintos proyectos que he realizado junto con
-          información personal.
+          My portfolio featuring personal projects and more information about
+          me.
         </motion.p>
 
         {/*  <p className={styles.spam}>

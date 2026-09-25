@@ -23,7 +23,7 @@ const Contact = () => {
         viewport={viewportConfig}
         className={styles.title}
       >
-        Contáctame
+        Contact me
       </motion.span>
 
       <motion.h2
@@ -33,7 +33,7 @@ const Contact = () => {
         viewport={viewportConfig}
         className={styles.subtitle}
       >
-        Envíame un mensaje
+        Send me a message
       </motion.h2>
 
       <FormContact />

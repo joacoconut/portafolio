@@ -31,7 +31,7 @@ const FormContact: React.FC = () => {
   return (
     <form onSubmit={handleSubmit} className={styles.formContainer}>
       <div className={styles.fieldsContainer}>
-        <label className={styles.label}>Tu email:</label>
+        <label className={styles.label}>Your email:</label>
         <input
           type="email"
           name="email"
@@ -43,7 +43,7 @@ const FormContact: React.FC = () => {
       </div>
 
       <div className={styles.fieldsContainer}>
-        <label className={styles.label}>Mensaje:</label>
+        <label className={styles.label}>Message:</label>
         <textarea
           name="message"
           value={message}
@@ -54,11 +54,11 @@ const FormContact: React.FC = () => {
       </div>
 
       <button type="submit" className={styles.button}>
-        Enviar
+        Send
       </button>
 
       {submitted && (
-        <p className={styles.success}>¡Mensaje enviado con éxito!</p>
+        <p className={styles.success}>¡Message sent succesfully!</p>
       )}
     </form>
   );

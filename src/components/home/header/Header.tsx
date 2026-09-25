@@ -13,7 +13,7 @@ const Header = () => {
 
         <div>
           <p className={styles.name}>Joaquín Vega</p>
-          <p className={styles.skills}>Frontend</p>
+          <p className={styles.skills}>Frontend Developer</p>
         </div>
       </div>
 

@@ -5,10 +5,10 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.infoContainer}>
         <div className={styles.dataContainer}>
-          <p className={styles.title}>Información de contacto</p>
+          <p className={styles.title}>Contact information</p>
 
           <p className={styles.mail}>
-            <i className={`far fa-envelope ${styles.icon}`}></i>{" "}
+            <i className={`far fa-envelope ${styles.icon}`}></i>
             joaquinvega241200@gmail.com
           </p>
         </div>
@@ -19,7 +19,7 @@ const Footer = () => {
           <nav>
             <a
               className={styles.mail}
-              href="./CV-DEV Joaquin.pdf"
+              href="./CV-ENG-ATS Joaquín Vega.pdf"
               target="_blank"
               rel="noreferrer"
             >
@@ -29,7 +29,7 @@ const Footer = () => {
 
             <a
               className={styles.mail}
-              href="https://www.linkedin.com/in/joaquin-vegadev/"
+              href="https://www.linkedin.com/in/joaquin-vega-dev/"
               target="_blank"
               rel="noreferrer"
             >
